@@ -1,0 +1,955 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+@media(max-width:586.98px) {
+
+    p {
+        font-size: 13px;
+    }
+
+    .section {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .navbaar {
+        position: relative;
+        height: 10vh;
+    }
+
+    .list {
+        margin-right: 20px;
+    }
+
+    .s-s-ph {
+        background-color: rgb(62, 62, 63);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+
+    .s-s-ph p {
+        font-size: 15px !important;
+    }
+
+    .s-s-ph svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbaar-bootom,
+    .history,
+    .hide {
+        display: none;
+    }
+
+    .main-container {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .s-size {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .s-size p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .s-size svg {
+        height: 23px;
+        width: 23px;
+    }
+
+    .one {
+        text-align: center;
+        width: 100%;
+        margin: 1px auto;
+    }
+
+    .card {
+        background-color: rgb(247, 247, 248);
+        border-radius: 7px;
+        padding: 10px;
+        width: 80%;
+        margin-bottom: 10px;
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card:hover {
+        background-color: rgb(177, 177, 180);
+    }
+
+    .container-content {
+        position: relative;
+    }
+
+    .sms-container {
+        position: sticky;
+        bottom: 0;
+        background-color: rgb(246, 246, 245);
+        height: 100px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        gap: 8px;
+    }
+
+    .sms-container input {
+        width: 75%;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 15px;
+        outline: none;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px black, -1px -1px 1px black;
+        box-sizing: border-box;
+    }
+
+    .sms-container svg {
+        background-color: white;
+        padding: 9px;
+        border-radius: 7px;
+        border: 1px solid white;
+        width: 3%;
+        box-shadow: 1px 1px 1px black,
+            -1px -1px 1px black;
+
+    }
+
+}
+
+@media(min-width:587px) and (max-width:766.98px) {
+
+    p {
+        font-size: 13px;
+    }
+
+    .section {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .navbaar {
+        position: relative;
+        height: 10vh;
+    }
+
+    .list {
+        margin-right: 20px;
+    }
+
+    .s-s-ph {
+        background-color: rgb(62, 62, 63);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+
+    .s-s-ph p {
+        font-size: 15px !important;
+    }
+
+    .s-s-ph svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbaar-bootom,
+    .history,
+    .hide {
+        display: none;
+    }
+
+    .main-container {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .s-size {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .s-size p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .s-size svg {
+        height: 23px;
+        width: 23px;
+    }
+
+    .one {
+        text-align: center;
+        width: 100%;
+        margin: 1px auto;
+    }
+
+    .card {
+        background-color: rgb(247, 247, 248);
+        border-radius: 7px;
+        padding: 10px;
+        width: 65%;
+        margin-bottom: 10px;
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card:hover {
+        background-color: rgb(177, 177, 180);
+    }
+
+    .container-content {
+        position: relative;
+    }
+
+    .sms-container {
+        position: sticky;
+        bottom: 0;
+        background-color: rgb(246, 246, 245);
+        height: 100px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        gap: 8px;
+    }
+
+    .sms-container input {
+        width: 85%;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 15px;
+        outline: none;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px black, -1px -1px 1px black;
+        box-sizing: border-box;
+    }
+
+    .sms-container svg {
+        background-color: white;
+        padding: 9px;
+        border-radius: 7px;
+        border: 1px solid white;
+        width: 4%;
+        box-shadow: 1px 1px 1px black,
+            -1px -1px 1px black;
+
+    }
+
+}
+
+@media (min-width:767px) and (max-width:990.98px) {
+
+    p {
+        font-size: 12px;
+    }
+
+    .section {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+    }
+
+    .navbaar {
+        position: relative;
+        height: 100vh;
+        width: 22vw;
+        background-color: rgba(36, 34, 34, 0.863);
+    }
+
+    .main-container {
+        height: 100vh;
+        width: 78vw;
+        color: black;
+    }
+
+    .container-content {
+        text-align: center;
+        margin: 30px auto;
+        width: 550px;
+        height: 550px;
+        padding: 5px 5px;
+
+    }
+
+    .container-content h1 {
+        font-size: 25px;
+        text-align: center;
+        margin: 2px auto;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+
+    .container-card {
+        display: flex;
+        gap: 10px;
+    }
+
+    .one {
+        box-sizing: border-box;
+        text-align: center;
+        margin-top: 10px auto;
+        width: 200px;
+    }
+
+    .one svg {
+        height: 22px !important;
+        width: 22px !important;
+    }
+
+    .one p {
+        font-size: 13px;
+    }
+
+    .card {
+        background-color: rgba(247, 247, 248);
+        box-sizing: border-box;
+        width: 170px;
+        padding: 5px;
+        border-radius: 7px;
+        text-align: center;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+
+    .card:hover {
+        background-color: rgb(177, 177, 180);
+    }
+
+    .search:hover,
+    .bottom-first:hover {
+        background-color: rgb(101, 101, 105);
+        border-radius: 7px;
+    }
+
+    .sms-container {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 80px;
+        position: sticky;
+        bottom: 0;
+        width: 550px;
+        box-sizing: border-box;
+    }
+
+    .sms-container input {
+        width: 680px;
+        padding: 12px;
+        border-radius: 7px;
+        font-size: 15px;
+        outline: none;
+        border: white;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    .sms-container svg {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+        padding: 12px 11px;
+        border-radius: 7px;
+        color: black !important;
+        background-color: white;
+        box-shadow: 2px 2px 2px black;
+    }
+
+
+
+    .navbaar-top {
+        background-color: rgb(59, 59, 61);
+        padding: 3px 3px;
+        position: sticky;
+        height: 9%;
+        top: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .new-chat {
+        display: flex;
+        align-items: center;
+        border: 1px solid white;
+        padding: 1px 0 1px 2px;
+        border-radius: 7px;
+        color: white;
+        width: 70%;
+        gap: 8px;
+        background-color: rgb(59, 59, 61);
+    }
+
+    .navbaar .hide {
+        margin-right: 8px;
+        align-items: center;
+        border: 1px solid white;
+        padding: 10px 3px;
+        border-radius: 7px;
+        color: white;
+        width: 20%;
+        background-color: rgb(59, 59, 61);
+    }
+
+    .history {
+        padding: 3px 3px;
+        position: relative;
+        overflow: auto;
+        background-color: rgb(74, 74, 77);
+        height: 73%;
+        color: white;
+    }
+
+    .one-his {
+        margin: 7px 5px;
+        align-items: center;
+    }
+
+    .search {
+        margin-top: 6px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .search p {
+        font-size: 13px;
+    }
+
+    .navbaar-bootom {
+        color: white;
+        padding: 3px 3px;
+        background-color: rgb(59, 59, 61);
+        position: fixed;
+        height: 15%;
+        width: 21.5%;
+        bottom: 0;
+        border-top: 1px solid white;
+    }
+
+    .bottom-first {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+
+    .upgrade {
+        margin-left: 3px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .new {
+        background-color: rgba(44, 238, 44, 0.747);
+        border-radius: 6px;
+        padding: 3px 6px;
+        border: none;
+        font-size: 11px;
+    }
+
+    .g {
+        background-color: rgba(44, 238, 44, 0.747);
+        border-radius: 6px;
+        padding: 1px 4px;
+        border: none;
+        font-size: 11px;
+    }
+
+    .list {
+        display: none;
+    }
+}
+
+@media (min-width:991px) and (max-width:1199.98px) {
+
+    p {
+        font-size: 13px;
+    }
+
+    .section {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+    }
+
+    .navbaar {
+        position: relative;
+        height: 100vh;
+        width: 22vw;
+        background-color: rgba(36, 34, 34, 0.863);
+    }
+
+    .main-container {
+        height: 100vh;
+        width: 78vw;
+        color: black;
+    }
+
+    .container-content {
+        text-align: center;
+        margin: 30px auto;
+        width: 700px;
+        height: 600px;
+        padding: 5px 5px;
+    }
+
+    .container-content h1 {
+        font-size: 28px;
+        text-align: center;
+        margin: 2px auto;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+
+    .container-card {
+        display: flex;
+        gap: 12px;
+        overflow: auto;
+    }
+
+    .one {
+        box-sizing: border-box;
+        text-align: center;
+        margin-top: 10px auto;
+        width: 230px;
+        /* border: 2px solid black; */
+    }
+
+    .one svg {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .one p {
+        font-size: 17px;
+    }
+
+    .card {
+        background-color: rgba(247, 247, 248);
+        box-sizing: border-box;
+        width: 220px;
+        padding: 9px;
+        border-radius: 7px;
+        text-align: center;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+
+    .card:hover {
+        background-color: rgb(177, 177, 180);
+    }
+
+    .search:hover,
+    .bottom-first:hover {
+        background-color: rgb(101, 101, 105);
+        border-radius: 7px;
+        padding: 2px 1px 2px 4px;
+    }
+
+    .sms-container {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 80px;
+        position: sticky;
+        bottom: 0;
+        width: 700px;
+        /* box-shadow: 2px 2px 2px black; */
+        box-sizing: border-box;
+    }
+
+    .sms-container input {
+        width: 680px;
+        padding: 12px;
+        border-radius: 7px;
+        font-size: 15px;
+        outline: none;
+        border: white;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    .sms-container svg {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+        padding: 12px 11px;
+        border-radius: 7px;
+        color: black !important;
+        background-color: white;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    /* left hand side */
+
+    .navbaar-top {
+        background-color: rgb(59, 59, 61);
+        padding: 3px 3px;
+        position: sticky;
+        height: 12%;
+        top: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .new-chat {
+        display: flex;
+        align-items: center;
+        border: 1px solid white;
+        padding: 3px 0 3px 2px;
+        border-radius: 7px;
+        color: white;
+        width: 80%;
+        gap: 8px;
+        background-color: rgb(59, 59, 61);
+    }
+
+    .navbaar .hide {
+        margin-right: 8px;
+        align-items: center;
+        border: 1px solid white;
+        padding: 12.5px 3px;
+        border-radius: 7px;
+        color: white;
+        width: 15%;
+        background-color: rgb(59, 59, 61);
+    }
+
+    .history {
+        padding: 3px 3px;
+        position: relative;
+        overflow: auto;
+        background-color: rgb(74, 74, 77);
+        height: 70%;
+        color: white;
+    }
+
+    .one-his {
+        margin: 7px 5px;
+        align-items: center;
+    }
+
+    .search {
+        margin-top: 6px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .search p {
+        font-size: 13px;
+    }
+
+    .navbaar-bootom {
+        color: white;
+        padding: 3px 3px;
+        background-color: rgb(59, 59, 61);
+        position: fixed;
+        height: 18%;
+        width: 21.5%;
+        bottom: 0;
+        border-top: 1px solid white;
+    }
+
+    .bottom-first {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+
+    .upgrade {
+        margin-left: 7px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .new {
+        background-color: rgba(44, 238, 44, 0.747);
+        border-radius: 6px;
+        padding: 4px 7px;
+        border: none;
+    }
+
+    .g {
+        background-color: rgba(44, 238, 44, 0.747);
+        border-radius: 6px;
+        padding: 2px 6px;
+        border: none;
+    }
+
+    .list {
+        display: none;
+    }
+}
+
+@media (min-width:1200px) {
+    .section {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+    }
+
+    .navbaar {
+        position: relative;
+        height: 100vh;
+        width: 22vw;
+        background-color: rgba(36, 34, 34, 0.863);
+    }
+
+    .main-container {
+        height: 100vh;
+        width: 78vw;
+        /* background-color: aqua; */
+        color: black;
+    }
+
+    .container-content {
+        text-align: center;
+        margin: 30px auto;
+        width: 760px;
+        height: 600px;
+        padding: 5px 5px;
+    }
+
+    .container-content h1 {
+        color: black !important;
+        font-size: 33px;
+        text-align: center;
+        margin: 2px auto;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+
+    .container-card {
+        display: flex;
+        gap: 12px;
+        text-align: center;
+        justify-content: center;
+        overflow: auto;
+        margin: 30px auto;
+    }
+
+    .one {
+        box-sizing: border-box;
+        text-align: center;
+        margin-top: 10px auto;
+        width: 240px;
+        /* border: 2px solid black; */
+    }
+
+    .one svg {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .one p {
+        font-size: 20px;
+    }
+
+    .card {
+        background-color: rgba(247, 247, 248);
+        box-sizing: border-box;
+        width: 230px;
+        padding: 10px;
+        border-radius: 7px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .card:hover {
+        background-color: rgb(177, 177, 180);
+    }
+
+    .search:hover,
+    .bottom-first:hover {
+        background-color: rgb(101, 101, 105);
+        border-radius: 7px;
+        padding: 2px 4px 2px 7px;
+        font-size: 15px;
+
+    }
+
+    .sms-container {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 80px;
+        position: sticky;
+        bottom: 0;
+        width: 760px;
+        /* box-shadow: 2px 2px 2px black; */
+        box-sizing: border-box;
+    }
+
+    .sms-container input {
+        width: 735px;
+        padding: 12px;
+        border-radius: 7px;
+        font-size: 15px;
+        outline: none;
+        border: 0 solid #d9d9e3;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    .sms-container svg {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25px;
+        padding: 12px 11px;
+        border-radius: 7px;
+        color: black !important;
+        background-color: white;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    /* left hand side */
+
+    .navbaar-top {
+        background-color: rgb(74, 74, 77);
+        padding: 3px 3px;
+        position: sticky;
+        height: 12%;
+        top: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .new-chat {
+        display: flex;
+        align-items: center;
+        border: 1px solid white;
+        padding: 3px 0 3px 2px;
+        border-radius: 7px;
+        color: white;
+        width: 80%;
+        gap: 8px;
+        background-color: rgb(74, 74, 77);
+    }
+
+    .navbaar .hide {
+        margin-right: 8px;
+        align-items: center;
+        border: 1px solid white;
+        padding: 12.5px 3px;
+        border-radius: 7px;
+        color: white;
+        width: 15%;
+        background-color: rgb(74, 74, 77);
+    }
+
+    .history {
+        padding: 3px 3px;
+        position: relative;
+        overflow: auto;
+        background-color: rgb(74, 74, 77);
+        height: 67%;
+        color: white;
+    }
+
+    .one-his {
+        margin: 10px 10px;
+    }
+
+    .search {
+        margin-top: 6px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .navbaar-bootom {
+        color: white;
+        padding: 3px 3px;
+        background-color: rgb(74, 74, 77);
+        position: fixed;
+        height: 18%;
+        width: 21.5%;
+        bottom: 0;
+        border-top: 1px solid white;
+    }
+
+    .bottom-first {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+
+    .upgrade {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .new {
+        background-color: rgba(44, 238, 44, 0.747);
+        border-radius: 6px;
+        padding: 4px 7px;
+        border: none;
+    }
+
+    .g {
+        background-color: rgba(44, 238, 44, 0.747);
+        border-radius: 6px;
+        padding: 2px 6px;
+        border: none;
+    }
+
+    .list {
+        display: none;
+    }
+}
+
+
+/* rgba(217, 217, 227)   nvbaar color
+
+rgba(247, 247, 248,  card color  rgba(247, 247, 248,
+
+rgba(255, 255, 255) input background
+
+
+0 solid #d9d9e3 input border sahdow
+
+*/
